@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand-mark" href="#inicio" aria-label="Voltar ao início"><span>MARANATA</span><b>26</b></a>
-        <a className="header-link" href="#memorias">MEMÓRIAS <span aria-hidden="true">↘</span></a>
+        <a className="header-link" href="#memorias">MEMÓRIAS <svg className="inline-arrow inline-arrow-down-right" aria-hidden="true" viewBox="0 0 12 12"><path d="M2 2v8h8M2 2l8 8" /></svg></a>
       </header>
       <section className="hero" id="inicio" aria-labelledby="hero-title">
         <div className="hero-grain" aria-hidden="true" /><div className="hero-rule hero-rule-top" aria-hidden="true" />
@@ -41,7 +41,7 @@ export default function Home() {
       <section className="instagram-section" id="instagram" aria-labelledby="instagram-title">
         <p className="eyebrow">NÃO PERCA O PRÓXIMO SINAL</p><h2 id="instagram-title">ACOMPANHE<br />O MARANATA<br /><em>2026.</em></h2><p>@maranata.marilia</p><a className="instagram-cta" href={site.instagramUrl} target="_blank" rel="noreferrer"><span>ACOMPANHAR NO INSTAGRAM</span><svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7" /></svg></a>
       </section>
-      <footer className="site-footer"><div className="footer-brand"><span>MARANATA</span><strong>26</strong></div><div><p>31.10 — 02.11</p><p>MARÍLIA · SP</p></div><p className="footer-message">NOS VEMOS LÁ.</p><a href={site.instagramUrl} target="_blank" rel="noreferrer">INSTAGRAM ↗</a></footer>
+      <footer className="site-footer"><div className="footer-brand"><span>MARANATA</span><strong>26</strong></div><div><p>31.10 — 02.11</p><p>MARÍLIA · SP</p></div><p className="footer-message">NOS VEMOS LÁ.</p><a href={site.instagramUrl} target="_blank" rel="noreferrer"><span>INSTAGRAM</span><svg className="inline-arrow inline-arrow-up-right" aria-hidden="true" viewBox="0 0 12 12"><path d="M2 10 10 2M5 2h5v5" /></svg></a></footer>
     </main>
   );
 }
