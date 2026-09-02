@@ -87,7 +87,7 @@ h1, h2, h3, p { margin: 0; }
 .edition { color: var(--gold-soft); font-size: 11px; font-weight: 800; letter-spacing: .2em; }
 .edition span { color: var(--muted); }
 .hero-content { margin: auto 0; padding: 22px 0 18px; }
-.hero-logo-wrap { width: 70px; height: 70px; margin-bottom: clamp(26px, 4.5vh, 42px); overflow: hidden; opacity: .92; box-shadow: 0 0 0 1px rgb(248 242 214 / 10%); }
+.hero-logo-wrap { width: 82px; height: 82px; margin-bottom: clamp(16px, 3.2vh, 30px); overflow: hidden; opacity: .92; box-shadow: 0 0 0 1px rgb(248 242 214 / 10%); }
 .hero-logo-wrap img { width: 100%; height: 100%; object-fit: cover; }
 .hero h1, .theme-section h2, .history-section h2, .experience-section h2, .releases-section h2, .instagram-section h2, .next-chapter h3 { font-family: var(--font-display); font-weight: 400; line-height: .78; letter-spacing: -.02em; text-transform: uppercase; }
 .hero h1 { font-size: clamp(5.6rem, 25.5vw, 18rem); }
