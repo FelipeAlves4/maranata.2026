@@ -36,10 +36,10 @@ export default function Home() {
         <div className="experience-list">{experience.map((item, index) => <article className={`experience-item experience-${index + 1}`} key={item.title}><div className="experience-label"><span>0{index + 1}</span><h3>{item.title}</h3></div><figure><img src={item.image.src} alt={item.image.alt} width="640" height="1136" loading="lazy" /></figure></article>)}</div>
       </section>
       <section className="releases-section" id="2026" aria-labelledby="releases-title">
-        <p className="eyebrow">O PRÓXIMO CAPÍTULO</p><h2 id="releases-title">AINDA HÁ<br />MUITO A<br /><em>REVELAR.</em></h2><div className="release-list">{releaseItems.map((item) => <article className="release-item" key={item.number}><span>{item.number}</span><div><h3>{item.label}</h3><p>{item.status}</p></div><i aria-hidden="true">+</i></article>)}</div>
+        <p className="eyebrow">O PRÓXIMO CAPÍTULO</p><h2 id="releases-title">AINDA HÁ<br />MUITO A<br /><em>REVELAR.</em></h2><div className="release-list">{releaseItems.map((item) => <article className="release-item" key={item.number}><span>{item.number}</span><div><h3>{item.label}</h3><p>{item.status}</p></div></article>)}</div>
       </section>
       <section className="instagram-section" id="instagram" aria-labelledby="instagram-title">
-        <p className="eyebrow">NÃO PERCA O PRÓXIMO SINAL</p><h2 id="instagram-title">ACOMPANHE<br />O MARANATA<br /><em>2026.</em></h2><p>@maranata.marilia</p><a className="instagram-cta" href={site.instagramUrl} target="_blank" rel="noreferrer">ACOMPANHAR NO INSTAGRAM <span aria-hidden="true">↗</span></a>
+        <p className="eyebrow">NÃO PERCA O PRÓXIMO SINAL</p><h2 id="instagram-title">ACOMPANHE<br />O MARANATA<br /><em>2026.</em></h2><p>@maranata.marilia</p><a className="instagram-cta" href={site.instagramUrl} target="_blank" rel="noreferrer"><span>ACOMPANHAR NO INSTAGRAM</span><svg aria-hidden="true" viewBox="0 0 16 16"><path d="M3 13 13 3M6 3h7v7" /></svg></a>
       </section>
       <footer className="site-footer"><div className="footer-brand"><span>MARANATA</span><strong>26</strong></div><div><p>31.10 — 02.11</p><p>MARÍLIA · SP</p></div><p className="footer-message">NOS VEMOS LÁ.</p><a href={site.instagramUrl} target="_blank" rel="noreferrer">INSTAGRAM ↗</a></footer>
     </main>

@@ -10,8 +10,8 @@ export const maranata2026Content: {
   schedule: { status: 'coming-soon', items: [] },
 };
 export const history = [
-  { year: '2024', copy: 'Momentos passam. O que vivemos permanece.', images: [{ src: '/images/2024/louvor.webp', alt: 'Pessoas ministrando louvor no Acampamento Maranata' }, { src: '/images/2024/palavra.webp', alt: 'Momento de palavra e comunhão no Acampamento Maranata' }] },
-  { year: '2025', copy: 'Mais encontros. Mais histórias. Mais memórias.', images: [{ src: '/images/2025/jantar.webp', alt: 'Participantes no jantar temático do Maranata 2025' }, { src: '/images/2025/agua.webp', alt: 'Participantes em uma gincana com água no Maranata 2025' }] },
+  { year: '2024', copy: 'Momentos passam. O que vivemos permanece.', images: [{ src: '/images/2024/louvor.webp', alt: 'Pessoas ministrando louvor no Acampamento Maranata' }] },
+  { year: '2025', copy: 'Mais encontros. Mais histórias. Mais memórias.', images: [{ src: '/images/2025/inflavel.webp', alt: 'Participantes vivendo um momento de alegria no Maranata 2025' }] },
 ];
 export const experience = [
   { title: 'COMUNHÃO', image: { src: '/images/2024/servico.webp', alt: 'Pessoas preparando uma refeição juntas no acampamento' } },
